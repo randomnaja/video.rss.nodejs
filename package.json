@@ -1,0 +1,21 @@
+{
+  "name": "video.rss.feeder",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "*",
+    "stylus": "*",
+    "xml": "*",
+    "http-agent": ">=0.1.2",
+    "jsdom": ">=0.7.0",
+    "jquery": ">= 1.8.3",
+    "contextify": "0.1.6",
+    "string": ">= 1.5.0",
+    "shred":">=0.8.9",
+    "nstore":">=0.5.2"
+  }
+}
