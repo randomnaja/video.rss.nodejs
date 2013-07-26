@@ -71,6 +71,7 @@ app.get('/videorss', function(req, res){
     seriesStore.all(function (err, results) {
       for (var idx in results) {
          var ele = results[idx];
+         ele.videos.sort(function(a,b){return a.ep - b.ep;});
          for (var idx2 in ele.videos) {
             var ele2 = ele.videos[idx2];
             feed.item({
